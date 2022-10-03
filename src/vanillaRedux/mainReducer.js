@@ -5,7 +5,7 @@ const REMOVE_LAST_TODO = 'REMOVE_LAST_TODO'
 
 const initialState = {
   count: 0,
-  todos: ['shoot the movie', 'take a picture', 'tell about toolkit']
+  todos: [['shoot the movie', 'take a picture', 'tell about toolkit']]
 }
 
 export default function mainReducer(state = initialState, action) {
